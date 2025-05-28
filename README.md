@@ -1,3 +1,4 @@
+
 # JS-Fundamentals
 
 This repository contains solutions to the **Fundamentals of JavaScript** project for the ALX Front-End Web Development Curriculum.
