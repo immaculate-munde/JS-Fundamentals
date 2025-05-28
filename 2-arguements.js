@@ -1,9 +1,9 @@
-let args = process.argv.slice(2);
+const args = process.argv.slice(2); // Get command-line arguments (excluding 'node' and file name)
 
 if (args.length === 0) {
-  console.log("No argument");
+  console.log('0 argument');
 } else if (args.length === 1) {
-  console.log("Argument found");
+  console.log('1 argument');
 } else {
-  console.log("Arguments found");
+  console.log(`${args.length} arguments`);
 }
